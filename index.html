@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="preload" href="./CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preload" href="./CSS/styles.css" as="style">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="contenedor-header">
+        <header class="header">
+            <!-- <h1>Tumama.com</h1> -->
+            <div class="logo">
+                <h1>Curriculum Vitae</h1>
+                <!-- <a href="#">Diego Adriel Segura Ramirez</a> -->
+            </div>
+            <div class="contenedor-nav">
+                <nav class="nav">
+                    <a href="#">Inicio</a>
+                    <a href="./proyectos.html">Proyectos</a>
+                    <a href="./pasatiempos.html">Pasatiempos</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <!-- INICIO -->
+    <section class="inicio">
+        <!--La sección de inicio debe contener lo siguiente: nombre completo, fotografía, datos de
+            contacto, formulario de contacto. (todos los elementos que consideren necesarios
+            además de los no mencionados.)-->
+        
+        <div class="contenido-banner">
+            <div class="contenedor-imagen">
+                <img src="./img/perfil.jpg" alt="">
+            </div>
+            <h2>DIEGO ADRIEL SEGURA RAMIREZ</h2>
+            <h3>Ingeniero en Sistemas</h2>
+
+            <div class="iconos-redes">
+                <a href="https://www.facebook.com/diegoadriel.ramirez"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/DaiserNet"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/diegoadriel.r.s/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/524493480700"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+        </div>
+        
+    </section>
+    <main class="main"> 
+        <div class="contenedor-main">
+            <h2>¿Quien soy?</h2>
+            <p>
+                Mi nombre es <span>Diego Adriel Segura Ramirez</span>, soy un estudiante que actualmente se encuentra cursando el quinto semestre de la 
+                carrera de Ingenieria en Sistemas Computacionales en la Universidad Autonoma de Aguascalientes.
+            </p>
+            <div class="contenedor-leng-img">
+
+                <div class="col">
+                    <div class="contenedor-lenguajes">
+                        <h3>Lenguajes en los que tengo experiencia</h3>
+                        <div class="lenguajes">
+                            <i class="fa-solid fa-c"></i>
+                            <span>C/C++</span>
+                        </div>
+                        <div class="lenguajes">
+                            <i class="fa-brands fa-python"></i>
+                            <span>PYTHON</span>
+                        </div>
+                        <div class="lenguajes">
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-terminal-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M8 9l3 3l-3 3" />
+                                <path d="M13 15l3 0" />
+                                <path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+                              </svg> -->
+                              <i class="fa-solid fa-terminal"></i>
+                              <span>BASH</span>
+                        </div>
+                        <div class="lenguajes">
+                            <i class="fa-brands fa-java"></i>
+                            <span>JAVA</span>
+                        </div>
+                        <div class="lenguajes">
+                            <i class="fa-brands fa-js"></i>
+                            <span>JAVASCRIPT</span>
+                        </div>
+                        <div class="lenguajes">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="lenguajes">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="lenguajes">
+                            <i class="fa-solid fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                    </div>                
+                </div>
+                <div class="img-developer">
+                    <img src="./img/developer.webp" alt="">
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <section>
+        <h2>Contacto</h2>
+        <form class="formulario">
+            <fieldset> <!-- para que todo esto aparezca dentro de un recuadro -->
+                <legend>Contactame llenando todos los campos</legend>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Nombre"> 
+                    </div>
+                    
+                    <div class="campo">
+                        <label>Telefono</label>
+                        <input class="input-text" type="tel" placeholder="Telefono">
+                    </div>
+                    
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="Correo">
+                    </div>
+                    
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+                </div><!--contenedor-campos-->
+
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100" type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer class="footer"> <!-- pie de pagina -->
+        <p>Todos los derechos reservados ISC. Diego Adriel Segura Ramirez ID: 280582</p>
+    </footer>
+</body>
+</html>

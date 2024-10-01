@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="preload" href="./CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preload" href="./CSS/styles.css" as="style">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="contenedor-header">
+        <header class="header">
+            <!-- <h1>Tumama.com</h1> -->
+            <div class="logo">
+                <h1>Curriculum Vitae</h1>
+                <!-- <a href="#">Diego Adriel Segura Ramirez</a> -->
+            </div>
+            <div class="contenedor-nav">
+                <nav class="nav">
+                    <a href="./index.html">Inicio</a>
+                    <a href="#">Proyectos</a>
+                    <a href="./pasatiempos.html">Pasatiempos</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <!-- PROYECTOS -->
+    <section class="pasatiempos">
+        <h2>Algunos de mis proyectos</h2>
+        <div class="contenedor-pasatiempos">
+            <div class="pasatiempos-imagen">
+                <img src="./img/Buddy-System.png" alt="">
+            </div>
+            <div class="contenedor-descripcion">
+                <h3>Buddy System con Roun Robin</h3>
+                <p>Proyecto final para la materia de sistemas operativos, este es una simulacion del modelo de gestion de memoria Buddy System 
+                    implementado con el sistema de gestion de procesos Round Robin. El <span>Buddy System</span> es un método de gestión de memoria que divide 
+                    la memoria en bloques de tamaños que son potencias de dos y El <span>Round Robin</span> es un algoritmo de planificación de procesos que asigna 
+                    un tiempo fijo (quantum) a cada proceso en un ciclo. Este Proyecto realiza una simulacion implementando ambos sistemas utilizando Buddy System
+                    para asignar memoria a proc esos generados aleatoriamente donde cada uno de estos procesos se le asigna un cierto numero de quantums los 
+                    cuales durara el proceso con memoria asignada para que una vez terminen sus quantums el espacio que ocupaba de la memoria sea liberado y permita la 
+                    asignacion de nuevos procesos. El proyecto se desarrollo en conjunto con mis companeros Brandon Ruiz, Daniel Lopez y Alberto Hernandez
+                 </p>
+            </div>
+        </div>
+        <div class="contenedor-pasatiempos-2">
+           
+            <div class="contenedor-descripcion-2">
+                <h3>FNAF Pac-man</h3>
+                <p>Este proyecto se trata de un videojuego desarrollado para la materia de Programacion II donde principalmente se vio el paradigma de
+                    la programacion orientada a objetos (POO). Este proyecto se trataba de desarrollar un juego de pacman pero en base a alguna tematica que 
+                    eligieramos, donde el juego deberia de contener tres niveles donde para avanzar al siguiente nivel era necesario conseguir una llave que abriria una compuerta
+                    para poder avanzar al siguiente nivel, esta llave se activaba una vez se conseguia una cierta cantidad de puntos en el nivel comiendo 
+                    los cupcakes que se encuentran a lo largo del mapa, dentro de estos niveles se encontraban los iconicos villanos de la franquisia, 
+                    los animatricos, los cuales tendras que evitar, pero puedes vencerlos al utilizar los trajes de springbonnie que te permitira 
+                    devolverlos a su forma de niños y te permitira poder acabar con ellos durante un cierto tiempo. Fue desarrollado en conjunto con mi compañero Albero Hernandez
+                </p>
+            </div>
+
+            <div class="pasatiempos-imagen-2">
+                <img src="./img/fnaf-pacman.jpg" alt="">
+            </div>
+        </div> 
+        <div class="contenedor-pasatiempos">
+            <div class="pasatiempos-imagen">
+                <img src="./img/Sistema-Tickets.jpg" alt="">
+            </div>
+            <div class="contenedor-descripcion">
+                <h3>Sistema de Tickets</h3>
+                <p>
+                    Proyecto Final de la materia de Programacion III donde el objetivo principal era desarrollar un programa que haga uso de los conocimientos 
+                    obtenidos a lo largo del semestre los cuales fueron principalmente sobre el lenguaje Java, donde se busco implementar el paradigma de la 
+                    programacion orientada a objetos, el uso de base de datos generando la conexion entre esta y el programa, donde se utilizo SQLite
+                    como el sistema gestor de la base de datos. El funcionamiento principal del proyecto se basa en la generacion y gestion de tickets donde en esto
+                    se establecen necesidades o problemas que requieran de atencion por parte del equipo de trabajo de alguna de las zonas dentro de la empresa 
+                    en la que este se este utilizando, habiendo tres tipos principales de usuarios permitidos dentro del software, el administrador como aquel encargado 
+                    de la gestion del sistema, el agente como aquel encargado de atender y resolver las problematicas dadas por los usuarios, y el usuario que es el que genera los tickets.
+                    Este proyecto fue desarrollado en conjunto con Angel Daniel Lopez y Eric Daniel Salas.
+                 </p>
+            </div>
+        </div>
+        <div class="contenedor-pasatiempos-2">
+           
+            <div class="contenedor-descripcion-2">
+                <h3>Simulacion de Puerta Automatica con motor paso a paso</h3>
+                <p>
+                    Proyecto Final de la materia de Ensamblador, para esto se buscaba hacer una simulacion de una puerta automatica corrediza que 
+                    se desplazara en base a los pasos dados por un motor de pasos, pudiendo dar un paso completo o un paso medio, donde en base al tipo de paso
+                    la puerta debia mostrar un tipo de desplazamiento diferente, esta fue desarrollada mediante lenguaje ensamblador de un procesador x86 y lenguaje 
+                    C/C++ para su funcionamiento siendo mayormente desarrollada en ensamblador y tambien se utilizo la libreria grafica de Allegro 
+                    para la generacion de la animacion de la puerta. Este proyecto fue desarrollado en conjunto con mis compañeros Eric Daniel Salas y Luis Humberto Ramirez
+                </p>
+            </div>
+
+            <div class="pasatiempos-imagen-2">
+                <img src="./img/puerta-stepper-motor.jpg" alt="">
+            </div>
+        </div>
+        <div class="contenedor-pasatiempos">
+            <div class="pasatiempos-imagen">
+                <img src="./img/encriptador-texto.png" alt="">
+            </div>
+            <div class="contenedor-descripcion">
+                <h3>Encriptador de Texto</h3>
+                <p>
+                    Este proyecto fue desarrollado como parte del programa de certificacion de Oracle ONE (Oracle Next Education) en colaboracion con Alura Latam, una pagina de cursos de especialaizacion en distintas tecnologias,
+                    el reto consistia en realizar una pagina la cual sirviera como encriptadora y desencriptadora de texto en base a una formula dada, esta pagina debia contener el 
+                    diseño propuesto por parte de Alura en la plataforma figma y debia permitir ingresar un texto encriptado y poder desencriptarlo
+                    o viceversa, asi como permitir compiar el texto generado.
+                 </p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer"> <!-- pie de pagina -->
+        <p>Todos los derechos reservados ISC. Diego Adriel Segura Ramirez ID: 280582</p>
+    </footer>
+</body>
+</html>
